@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['0', 'paper']
+
+roboflow:
+  workspace: paper-uo34p
+  project: paper-ppppp
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/paper-uo34p/paper-ppppp/dataset/7
